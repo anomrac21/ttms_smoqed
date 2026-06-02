@@ -1,9 +1,8 @@
 ---
 title: "SmoQed"
 image: ""
-images:
-    - image: ""
+images: []
 slideshow: []
 ---
 
-<p>TTMenus Menu System.</p>
+<p>Halal certified smoke-infused grill in Chaguanas. Off the grill proteins, pastas, gyros, and lunch specials.</p>
