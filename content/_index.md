@@ -1,8 +1,8 @@
 ---
-title: "{{SITE_TITLE}}"
-image: "{{HERO_IMAGE}}"
+title: "SmoQed"
+image: ""
 images:
-    - image: "{{HERO_IMAGE}}"
+    - image: ""
 slideshow: []
 ---
 
