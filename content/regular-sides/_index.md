@@ -1,7 +1,9 @@
 ---
 title: Regular Sides
 weight: 3
-icon: https://cdn.ttmenus.com/icons/food/hamburger.svg
+icon: images/regular-sides.webp
+images:
+    primary: images/regular-sides.webp
 ---
 
 Portion $25 each. Pair with grill proteins.

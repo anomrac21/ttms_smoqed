@@ -1,7 +1,9 @@
 ---
 title: Gyros
 weight: 6
-icon: https://cdn.ttmenus.com/icons/food/icon-lunchspecial.webp
+icon: images/gyros.webp
+images:
+    primary: images/gyros.webp
 ---
 
 Greek, Arabian, and Mediterranean wraps.

@@ -1,7 +1,9 @@
 ---
 title: Premium Sides
 weight: 4
-icon: https://cdn.ttmenus.com/icons/food/hamburger.svg
+icon: images/premium-sides.webp
+images:
+    primary: images/premium-sides.webp
 ---
 
 Side upgrade or standalone portion.

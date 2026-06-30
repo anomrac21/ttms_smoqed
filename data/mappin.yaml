@@ -1,6 +1,5 @@
-# Exported in /index.json as top-level "mappin" for TTMenus hub map pins.
-# Defaults: black fill, white stroke (override per brand as needed).
+# SmoQed: smoke orange fill, cream border
 
-fill: "#000000"
-border: "#ffffff"
+fill: "#e85d04"
+border: "#f5ebe0"
 border_width: 2

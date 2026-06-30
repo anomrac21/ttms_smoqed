@@ -15,17 +15,17 @@
   --hero-bg-color: #f5ebe0;
   --hero-bg-image-fg-color: #f5ebe0;
   --hero-text-color: #111111;
-  --contact-info-bg: none;
+  --contact-info-bg: #1a1a1a;
 
   /* Main */
+  --main-bg: #f5ebe0;
   --main-bg-color: #f5ebe0;
   --main-text-color: #111111;
-  --main-bg: #2d2d2d;
 
   /* Menu sections & cards */
   --menu-bg-color-1: #3d3d3d;
   --menu-bg-color-2: #2d2d2d;
-  --menu-text-color: #111111;
+  --menu-text-color: #ffffff;
 
   /* Buttons / menu item cards */
   --button-color1: #3d3d3d;
