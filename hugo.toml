@@ -73,7 +73,7 @@ timeout = '180s'
 
 [params.orderService]
   apiUrl = "https://orders.ttmenus.com/api/v1"
-  enabled = true
+  enabled = false
   kitchenPrint = false
   paperWidthMm = 80
   printerName = ""
@@ -131,7 +131,7 @@ timeout = '180s'
   loyverse_receipt_mode = "on_payment"
 
 [params.orderingsystem]
-  enabled = true
+  enabled = false
   orderingDisabledMessage = "Ordering is not available for this menu at this time."
   vat = 0
   servicecharge = 0
