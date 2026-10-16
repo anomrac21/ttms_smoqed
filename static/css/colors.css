@@ -1,50 +1,64 @@
 :root {
-  /* SmoQed brand: smoke black, warm orange, cream body */
+    /* Header */
+    --header-color: #1a1a1a;
+    --header-bg-color: #1a1a1a;
+    --header-text-color: #ffffff;
+    --header-text-shadow-color: #00000050;
+    --header-icon-color: #ffffff;
+    --header-bordercolor-1: #0d0d0d;
+    --header-bordercolor-2: #0d0d0d;
+    --header-border-color: #0d0d0d;
+    --header-bg-image: none;
 
-  /* Header */
-  --header-color: #1a1a1aee;
-  --header-text-color: #ffffff;
-  --header-text-shadow-color: #00000050;
-  --header-bordercolor-1: #0d0d0d;
-  --header-bordercolor-2: #0d0d0d;
-  --header-bg-color: #1a1a1aee;
-  --header-icon-color: #ffffff;
-  --header-bg-image: none;
+    /* Hero */
+    --hero-bg-color: #1a1a1a;
+    --hero-bg-color-1: #1a1a1a;
+    --hero-bg-color-2: #1a1a1a;
+    --hero-bg-image-fg-color: #e85d04;
+    --hero-text-color: #ffffff;
+    --hero-features-icon-color: #ffffff;
+    --hero-features-icon-bg-color: #1a1a1a;
+    --hero-border-color: #0d0d0d;
+    --contact-info-bg: #1a1a1a;
 
-  /* Hero / page background */
-  --hero-bg-color: #f5ebe0;
-  --hero-bg-image-fg-color: #f5ebe0;
-  --hero-text-color: #111111;
-  --contact-info-bg: #1a1a1a;
+    /* Main */
+    --main-bg: #1a1a1a;
+    --main-bg-color: #1a1a1a;
+    --main-text-color: #ffffff;
 
-  /* Main */
-  --main-bg: #f5ebe0;
-  --main-bg-color: #f5ebe0;
-  --main-text-color: #111111;
+    /* Menu */
+    --menu-bg-color-1: #3d3d3d;
+    --menu-bg-color-2: #2d2d2d;
+    --menu-text-color: #ffffff;
 
-  /* Menu sections & cards */
-  --menu-bg-color-1: #3d3d3d;
-  --menu-bg-color-2: #2d2d2d;
-  --menu-text-color: #ffffff;
+    /* Buttons */
+    --button-color1: #3d3d3d;
+    --button-color2: #1a1a1a;
+    --button-text-color1: #ffffff;
+    --button-text-color2: #ffffff;
+    --button-text-color3: #ffffff;
+    --favorite-color: #e85d04;
 
-  /* Buttons / menu item cards */
-  --button-color1: #3d3d3d;
-  --button-color2: #1a1a1a;
-  --button-text-color1: #ffffff;
-  --button-text-color2: #ffffff;
-  --button-text-color3: #ffffff;
+    /* Selected */
+    --selected-button-color1: #e85d04;
+    --selected-button-color2: #c44d03;
+    --selected-button-color3: #3d3d3d;
+    --selected-button-color4: #111111;
+    --selected-text-color1: #ffffff;
+    --selected-text-color2: #ffffff;
+    --selected-text-color3: #ffffff;
+    --select-color: #e85d04;
 
-  /* Selected / hover (smoke orange) */
-  --selected-button-color1: #e85d04;
-  --selected-button-color2: #c44d03;
-  --selected-button-color3: #f5ebe0;
-  --selected-button-color4: #111111ee;
-  --selected-text-color1: #ffffff;
-  --selected-text-color2: #ffffff;
-  --selected-text-color3: #e85d04;
+    /* Accent */
+    --accent-color: #e85d04;
+    --accent-text-color: #ffffff;
+    --accent-glow-color: #f5ebe0;
 
-  /* Footer & modals */
-  --footer-bg-color: #1a1a1a;
-  --footer-text-color: #f5ebe0;
-  --modal-bg-container-color: #00000055;
+    /* Footer */
+    --footer-bg-color: #1a1a1a;
+    --footer-text-color: #f5ebe0;
+    --footer-icon-color: #f5ebe0;
+
+    /* Modal */
+    --modal-bg-container-color: #000000;
 }

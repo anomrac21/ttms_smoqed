@@ -1,30 +1,30 @@
 theme = '_menus_ttms'
 languageCode = 'en-tt'
+title = 'SmoQed'
+baseURL = 'https://smoqed.ttmenus.com/'
+timeout = '180s'
 
-# Mount theme's content (dashboard, locations, api, etc.); keep project content (defining mounts replaces default for that target)
+# Mount home, generated menu tree, and theme pages (dashboard, locations, api).
 [module]
   [[module.mounts]]
-    source = "content"
+    source = "content/_index.md"
+    target = "content/_index.md"
+  [[module.mounts]]
+    source = "content/.generated"
     target = "content"
   [[module.mounts]]
     source = "themes/_menus_ttms/content"
     target = "content"
-title = 'SmoQed'
-baseURL = 'https://smoqed.ttmenus.com/'
 
 [markup]
-
-[markup.goldmark]
-
-[markup.goldmark.parser]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
       attribute = true
 
-[markup.goldmark.renderer]
-      unsafe = true
-
 [outputFormats]
-
-[outputFormats.menuitemsJSON]
+  [outputFormats.menuitemsJSON]
     mediaType = "application/json"
     baseName = "menu-items"
     isPlainText = true
@@ -36,72 +36,128 @@ baseURL = 'https://smoqed.ttmenus.com/'
   page = ["HTML", "JSON"]
 
 [params]
+  tier = "free"
+  description = "SmoQed — halal certified smoke-infused grill in Chaguanas. Off the grill proteins, pastas, gyros, and lunch specials."
   authServiceUrl = "https://auth.ttmenus.com"
   adsServiceUrl = "https://ads.ttmenus.com"
   notifyServiceUrl = "https://notify.ttmenus.com"
 
 [params.ads]
-    clientId = "ttms_smoqed"
-    enabled = true
-    apiUrl = "https://ads.ttmenus.com/api/v1"
+  clientId = "ttms_smoqed"
+  enabled = true
+  apiUrl = "https://ads.ttmenus.com/api/v1"
 
 [params.auth]
-    enabled = true
-    apiUrl = "https://auth.ttmenus.com/api/v1"
+  enabled = true
+  apiUrl = "https://auth.ttmenus.com/api/v1"
+
+[params.reviews]
+  enabled = true
+  apiUrl = "https://reviews.ttmenus.com/api/v1"
 
 [params.contentManagement]
-    enabled = true
-    apiUrl = "https://cms.ttmenus.com/api"
-    serviceUrl = "https://cms.ttmenus.com"
-    clientId = "ttms_smoqed"
-    # For local development, use:
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
+  enabled = true
+  apiUrl = "https://cms.ttmenus.com/api"
+  serviceUrl = "https://cms.ttmenus.com"
+  clientId = "ttms_smoqed"
 
-# Menu Image Service - user-submitted images with admin approval
+[params.menu]
+  multiLocationMenus = false
+
+[params.mapService]
+  url = "https://maps.ttmenus.com"
+  dataSource = "trinidad-tobago"
+
+[params.osrm]
+  url = "https://osrm.ttmenus.com"
+
+[params.orderService]
+  apiUrl = "https://orders.ttmenus.com/api/v1"
+  enabled = true
+  kitchenPrint = false
+  paperWidthMm = 80
+  printerName = ""
+
+[params.deliveryService]
+  apiUrl = "https://delivery.ttmenus.com/api/v1"
+  currency = "TTD"
+  deliveryFee = 0
+  enabled = false
+  wsUrl = "wss://delivery.ttmenus.com/api/v1"
+
+[params.content]
+  enabled = true
+  apiUrl = "https://cms.ttmenus.com/api"
+  clientId = "ttms_smoqed"
+
+[params.thumbor]
+  enabled = true
+  url = "https://thumbor.ttmenus.com"
+  sourceBaseUrl = "https://smoqed.ttmenus.com"
+  menuImagesUseThumbor = true
+
 [params.menuImageService]
-    enabled = true
-    apiUrl = "https://menu-images.ttmenus.com/api/v1"
-    # For local development, use:
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
+  enabled = true
+  apiUrl = "https://menu-images.ttmenus.com/api/v1"
 
-# Notification Service Configuration
 [params.notifications]
-    enabled = true
-    apiUrl = "https://notify.ttmenus.com/api/v1"
-    websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
-    serviceUrl = "https://notify.ttmenus.com"
-    clientDomain = "smoqed.ttmenus.com"
+  enabled = true
+  apiUrl = "https://notify.ttmenus.com/api/v1"
+  websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
+  serviceUrl = "https://notify.ttmenus.com"
+  clientDomain = "smoqed.ttmenus.com"
+
+[params.features]
+  loyverse_connect = false
+  payments = false
+  delivery = false
+  notifications = true
+  analytics_access = false
+  featured = false
+  exclusive_ads = false
+  no_competitor_ads = false
+  unmetered_traffic = false
+
+[params.posintegration]
+  enabled = false
+  provider = ""
+  api_url = ""
+  access_token = ""
+  oauth_url = "https://loyverse-oauth.ttmenus.com"
+  store_id = ""
+  sync_menu = false
+  auto_process_orders = false
+  fallback_to_whatsapp = true
+  loyverse_receipt_mode = "on_payment"
 
 [params.orderingsystem]
-    # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
-    enabled = true
-    orderingDisabledMessage = "Ordering is not available for this menu at this time."
-    vat = 0
-    servicecharge = 0
-    hastables = true
-    usephonecall = false
-    whatsapp = "18687351000"
-    phone = "18687351000"
+  enabled = true
+  orderingDisabledMessage = "Ordering is not available for this menu at this time."
+  vat = 0
+  servicecharge = 0
+  hastables = true
+  usephonecall = false
+  whatsapp = "18687351000"
+  phone = "18687351000"
+
+[params.paymentService]
+  enabled = false
+  apiUrl = "https://pay.smoqed.ttmenus.com"
+  clientId = "ttms_smoqed"
+  currency = "TTD"
+  provider = "wipay"
 
 [params.services]
-    analyticsid = "0"
-    notifications = true
+  analyticsid = "0"
+  notifications = true
 
 [params.social]
-    youtube = ""
-    email = "anomrac21@gmail.com"
-    phone = "18687351000"
-    facebook = ""
-    instagram = "https://www.instagram.com/smoqedtt"
-    tiktok = "https://www.tiktok.com/@smoqedtt"
-
-[privacy]
-
-[privacy.instagram]
-    simple = false
-    disable = false
+  youtube = ""
+  email = "anomrac21@gmail.com"
+  phone = "18687351000"
+  facebook = ""
+  instagram = "https://www.instagram.com/smoqedtt"
+  tiktok = "https://www.tiktok.com/@smoqedtt"
 
 [taxonomies]
   ingredient = "ingredients"
@@ -111,3 +167,8 @@ baseURL = 'https://smoqed.ttmenus.com/'
   subcategory = "subcategories"
   type = "types"
   event = "events"
+
+[privacy]
+  [privacy.instagram]
+    disable = false
+    simple = false

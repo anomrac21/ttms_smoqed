@@ -1,0 +1,253 @@
+{
+  "multi_location_menus": false,
+  "shared": [
+    {
+      "section": "gyros",
+      "file": "arabian",
+      "authoring": "shared",
+      "content_path": "content/_shared/gyros/arabian.md"
+    },
+    {
+      "section": "gyros",
+      "file": "greek",
+      "authoring": "shared",
+      "content_path": "content/_shared/gyros/greek.md"
+    },
+    {
+      "section": "gyros",
+      "file": "lebanon-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/gyros/lebanon-chicken.md"
+    },
+    {
+      "section": "gyros",
+      "file": "mediterranean-veggie",
+      "authoring": "shared",
+      "content_path": "content/_shared/gyros/mediterranean-veggie.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "black-bean-quinoa",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/black-bean-quinoa.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "boneless-breast",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/boneless-breast.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "kingfish",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/kingfish.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "lamb-rack",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/lamb-rack.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "lamb-shoulder",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/lamb-shoulder.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "leg-thigh-breast-wing",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/leg-thigh-breast-wing.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "pink-salmon",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/pink-salmon.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "ribeye",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/ribeye.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/shrimp.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "striploin",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/striploin.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "t-bone",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/t-bone.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "tofu",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/tofu.md"
+    },
+    {
+      "section": "off-the-grill",
+      "file": "white-fish-fillet",
+      "authoring": "shared",
+      "content_path": "content/_shared/off-the-grill/white-fish-fillet.md"
+    },
+    {
+      "section": "pastas",
+      "file": "classic-pesto",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/classic-pesto.md"
+    },
+    {
+      "section": "pastas",
+      "file": "creamy-alfredo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/creamy-alfredo.md"
+    },
+    {
+      "section": "pastas",
+      "file": "mac-cheese",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/mac-cheese.md"
+    },
+    {
+      "section": "pastas",
+      "file": "spaghetti-meatballs",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/spaghetti-meatballs.md"
+    },
+    {
+      "section": "pastas",
+      "file": "spicy-cajun",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/spicy-cajun.md"
+    },
+    {
+      "section": "pastas",
+      "file": "zesty-marinara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pastas/zesty-marinara.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "baked-potato",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/baked-potato.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "caesar-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/caesar-salad.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "cassava-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/cassava-fries.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "corn-on-the-cob",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/corn-on-the-cob.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "mediterranean-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/mediterranean-salad.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "sweet-potato-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/sweet-potato-fries.md"
+    },
+    {
+      "section": "premium-sides",
+      "file": "vegetable-medley",
+      "authoring": "shared",
+      "content_path": "content/_shared/premium-sides/vegetable-medley.md"
+    },
+    {
+      "section": "promotions",
+      "file": "lunch-deal",
+      "authoring": "shared",
+      "content_path": "content/_shared/promotions/lunch-deal.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "coleslaw",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/coleslaw.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "french-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/french-fries.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "fresh-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/fresh-salad.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "garlic-bread",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/garlic-bread.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "macaroni-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/macaroni-salad.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "mashed-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/mashed-potatoes.md"
+    },
+    {
+      "section": "regular-sides",
+      "file": "vegetable-rice",
+      "authoring": "shared",
+      "content_path": "content/_shared/regular-sides/vegetable-rice.md"
+    },
+    {
+      "section": "special-deals",
+      "file": "kids-mac-cheese",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-deals/kids-mac-cheese.md"
+    },
+    {
+      "section": "special-deals",
+      "file": "kids-spaghetti-meatballs",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-deals/kids-spaghetti-meatballs.md"
+    },
+    {
+      "section": "special-deals",
+      "file": "lunch-deal",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-deals/lunch-deal.md"
+    }
+  ],
+  "location": [],
+  "generated_at": "2026-10-16T17:46:27.657467+00:00"
+}
